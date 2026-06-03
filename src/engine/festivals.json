@@ -1,0 +1,189 @@
+[
+  {
+    "id": "ram_navami",
+    "name": "Ram Navami & Hari Jayanti",
+    "nameGujarati": "રામ નવમી / હરિ જયંતી",
+    "month": 1,
+    "paksha": "shukla",
+    "tithi": 9,
+    "category": "swaminarayan",
+    "importance": "critical",
+    "description": "Appearance day of Bhagwan Ram and Bhagwan Swaminarayan."
+  },
+  {
+    "id": "hanuman_jayanti",
+    "name": "Hanuman Jayanti",
+    "nameGujarati": "હનુમાન જયંતી",
+    "month": 1,
+    "paksha": "shukla",
+    "tithi": 15,
+    "category": "major_festival",
+    "importance": "high",
+    "description": "Birth anniversary of Lord Hanuman."
+  },
+  {
+    "id": "vasant_panchami",
+    "name": "Vasant Panchami & Shikshapatri Jayanti",
+    "nameGujarati": "વસંત પંચમી / શિક્ષાપત્રી જયંતી",
+    "month": 11,
+    "paksha": "shukla",
+    "tithi": 5,
+    "category": "swaminarayan",
+    "importance": "critical",
+    "description": "Saraswati Puja and day the Shikshapatri was written."
+  },
+  {
+    "id": "maha_shivratri",
+    "name": "Maha Shivratri",
+    "nameGujarati": "મહા શિવરાત્રી",
+    "month": 11,
+    "paksha": "krishna",
+    "tithi": 29,
+    "category": "major_festival",
+    "importance": "high",
+    "description": "Great night of Lord Shiva."
+  },
+  {
+    "id": "holi",
+    "name": "Holi",
+    "nameGujarati": "હોળી",
+    "month": 12,
+    "paksha": "shukla",
+    "tithi": 15,
+    "category": "major_festival",
+    "importance": "high",
+    "description": "Festival of colors."
+  },
+  {
+    "id": "dhuleti",
+    "name": "Dhuleti (Pushpadolotsav)",
+    "nameGujarati": "ધૂળેટી / પુષ્પદોલોત્સવ",
+    "month": 12,
+    "paksha": "krishna",
+    "tithi": 16,
+    "category": "swaminarayan",
+    "importance": "high",
+    "description": "Fagun Sud Purnima next day, color festival."
+  },
+  {
+    "id": "guru_purnima",
+    "name": "Guru Purnima",
+    "nameGujarati": "ગુરુ પૂર્ણિમા",
+    "month": 4,
+    "paksha": "shukla",
+    "tithi": 15,
+    "category": "auspicious",
+    "importance": "high",
+    "description": "Day to honor spiritual teachers."
+  },
+  {
+    "id": "raksha_bandhan",
+    "name": "Raksha Bandhan",
+    "nameGujarati": "રક્ષાબંધન",
+    "month": 5,
+    "paksha": "shukla",
+    "tithi": 15,
+    "category": "major_festival",
+    "importance": "high",
+    "description": "Festival celebrating brother-sister bonds."
+  },
+  {
+    "id": "janmashtami",
+    "name": "Krishna Janmashtami",
+    "nameGujarati": "જન્માષ્ટમી",
+    "month": 5,
+    "paksha": "krishna",
+    "tithi": 23,
+    "category": "major_festival",
+    "importance": "high",
+    "description": "Birth anniversary of Lord Krishna."
+  },
+  {
+    "id": "ganesh_chaturthi",
+    "name": "Ganesh Chaturthi",
+    "nameGujarati": "ગણેશ ચતુર્થી",
+    "month": 6,
+    "paksha": "shukla",
+    "tithi": 4,
+    "category": "major_festival",
+    "importance": "high",
+    "description": "Festival of Lord Ganesha."
+  },
+  {
+    "id": "jal_jhilani",
+    "name": "Jal Jhilani Ekadashi",
+    "nameGujarati": "જલ ઝીલણી એકાદશી",
+    "month": 6,
+    "paksha": "shukla",
+    "tithi": 11,
+    "category": "swaminarayan",
+    "importance": "critical",
+    "description": "Boat festival of Lord Swaminarayan."
+  },
+  {
+    "id": "dhanteras",
+    "name": "Dhanteras",
+    "nameGujarati": "ધનતેરસ",
+    "month": 8,
+    "paksha": "krishna",
+    "tithi": 28,
+    "category": "auspicious",
+    "importance": "medium",
+    "description": "Worship of wealth and health."
+  },
+  {
+    "id": "kali_chaudash",
+    "name": "Kali Chaudash",
+    "nameGujarati": "કાળી ચૌદશ",
+    "month": 8,
+    "paksha": "krishna",
+    "tithi": 29,
+    "category": "auspicious",
+    "importance": "medium",
+    "description": "Hanuman Puja and victory over evil."
+  },
+  {
+    "id": "diwali",
+    "name": "Diwali",
+    "nameGujarati": "દિવાળી",
+    "month": 8,
+    "paksha": "krishna",
+    "tithi": 30,
+    "category": "major_festival",
+    "importance": "critical",
+    "description": "Festival of lights."
+  },
+  {
+    "id": "nutan_varsh",
+    "name": "Nutan Varsh (Gujarati New Year)",
+    "nameGujarati": "નૂતન વર્ષ (બેસતું વર્ષ)",
+    "month": 8,
+    "paksha": "shukla",
+    "tithi": 1,
+    "category": "major_festival",
+    "importance": "critical",
+    "description": "First day of the Gujarati lunar calendar year."
+  },
+  {
+    "id": "bhai_dooj",
+    "name": "Bhai Dooj (Yama Dwitiya)",
+    "nameGujarati": "ભાઈબીજ / યમ દ્વિતીયા",
+    "month": 8,
+    "paksha": "shukla",
+    "tithi": 2,
+    "category": "auspicious",
+    "importance": "medium",
+    "description": "Brothers visit their sisters' homes."
+  },
+  {
+    "id": "dev_diwali",
+    "name": "Dev Diwali",
+    "nameGujarati": "દેવ દિવાળી",
+    "month": 8,
+    "paksha": "shukla",
+    "tithi": 15,
+    "category": "auspicious",
+    "importance": "high",
+    "description": "Diwali of the gods."
+  }
+]

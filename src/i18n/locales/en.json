@@ -1,0 +1,52 @@
+{
+  "ui": {
+    "today": "Today",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset",
+    "rahuKaal": "Rahu Kaal",
+    "abhijit": "Abhijit Muhurat",
+    "tithi": "Tithi",
+    "nakshatra": "Nakshatra",
+    "yoga": "Yoga",
+    "karana": "Karana",
+    "paksha": "Paksha",
+    "month": "Month",
+    "year": "Year",
+    "festivals": "Festivals",
+    "fasting": "Fasting"
+  },
+  "glossary": {
+    "tithi": {
+      "title": "Tithi (Lunar Day)",
+      "desc": "A Tithi is a lunar day, calculated by the time it takes for the longitudinal angle between the Moon and the Sun to increase by 12 degrees."
+    },
+    "nakshatra": {
+      "title": "Nakshatra (Lunar Mansion)",
+      "desc": "A Nakshatra is a sector along the ecliptic. There are 27 Nakshatras, each representing a segment of the moon's path."
+    },
+    "yoga": {
+      "title": "Yoga",
+      "desc": "Yoga is calculated by adding the longitudes of the Sun and Moon and dividing by 13°20'. It represents the relationship between the Sun and Moon."
+    },
+    "karana": {
+      "title": "Karana",
+      "desc": "A Karana is half of a Tithi (6 degrees of separation). There are 11 different Karanas."
+    },
+    "paksha": {
+      "title": "Paksha (Lunar Fortnight)",
+      "desc": "Shukla Paksha is the waxing moon phase (bright fortnight), and Krishna Paksha is the waning moon phase (dark fortnight)."
+    },
+    "rahuKaal": {
+      "title": "Rahu Kaal",
+      "desc": "An inauspicious period of the day, ruled by Rahu. It is generally avoided for starting new, important activities."
+    },
+    "abhijit": {
+      "title": "Abhijit Muhurat",
+      "desc": "An extremely auspicious period in the middle of the day, capable of destroying numerous doshas (flaws)."
+    },
+    "vara": {
+      "title": "Vara (Weekday)",
+      "desc": "The solar weekday, measured traditionally from local sunrise to the next day's sunrise. Each weekday has a ruling planetary deity."
+    }
+  }
+}

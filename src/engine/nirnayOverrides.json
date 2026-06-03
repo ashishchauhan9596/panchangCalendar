@@ -1,0 +1,12 @@
+{
+  "2026-04-26": [
+    {
+      "id": "swaminarayan_jayanti_override",
+      "name": "Hari Jayanti Special Celebration",
+      "nameGujarati": "હરિ જયંતી વિશેષ ઉત્સવ",
+      "category": "swaminarayan",
+      "importance": "critical",
+      "description": "Special local celebration override."
+    }
+  ]
+}
