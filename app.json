@@ -7,12 +7,6 @@
     "scheme": "swarupa-panchang",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0D1B25"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.swarupa.panchang",
@@ -26,10 +20,6 @@
     "android": {
       "package": "com.swarupa.panchang",
       "versionCode": 1,
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0D1B25"
-      },
       "permissions": [
         "android.permission.RECEIVE_BOOT_COMPLETED",
         "android.permission.SCHEDULE_EXACT_ALARM",
@@ -42,7 +32,6 @@
       [
         "expo-notifications",
         {
-          "icon": "./assets/notification-icon.png",
           "color": "#D4A843",
           "sounds": [],
           "androidMode": "default",
