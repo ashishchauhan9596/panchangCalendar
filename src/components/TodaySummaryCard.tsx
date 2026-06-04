@@ -128,8 +128,8 @@ export function TodaySummaryCard({ data }: TodaySummaryCardProps) {
         {/* Left Column: Hindu Month & Phase */}
         <View style={styles.leftColumn}>
           <Text style={styles.label}>{t('ui.monthAndYear')}</Text>
-          <Text style={styles.valueText} numberOfLines={2}>{monthName} {yearName}</Text>
-          <Text style={styles.subValueText}>{pakshaName}</Text>
+          <Text style={styles.valueText} numberOfLines={2} adjustsFontSizeToFit minimumFontScale={0.7}>{monthName} {yearName}</Text>
+          <Text style={styles.subValueText} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>{pakshaName}</Text>
         </View>
 
         {/* Center Column: Small Celestial Dial */}
@@ -209,8 +209,8 @@ export function TodaySummaryCard({ data }: TodaySummaryCardProps) {
         {/* Right Column: Active Tithi */}
         <View style={styles.rightColumn}>
           <Text style={[styles.label, { textAlign: 'right' }]}>{t('ui.activeTithi')}</Text>
-          <Text style={[styles.tithiText, { textAlign: 'right' }]} numberOfLines={2}>{tVal(data.tithi.name)}</Text>
-          <Text style={[styles.subValueText, { textAlign: 'right' }]}>{Math.round(data.tithi.elapsed * 100)}% {t('ui.elapsed')}</Text>
+          <Text style={[styles.tithiText, { textAlign: 'right' }]} numberOfLines={2} adjustsFontSizeToFit minimumFontScale={0.7}>{tVal(data.tithi.name)}</Text>
+          <Text style={[styles.subValueText, { textAlign: 'right' }]} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>{Math.round(data.tithi.elapsed * 100)}% {t('ui.elapsed')}</Text>
         </View>
       </View>
 

@@ -59,14 +59,14 @@ export function DualDayCards({ selectedData }: DualDayCardsProps) {
 
         {/* Column 2: Samvat & Panchang */}
         <View style={styles.columnMiddle}>
-          <Text style={styles.samvatText}>{t('ui.samvat')} - {samvatYear}</Text>
-          <Text style={styles.monthText} numberOfLines={1}>
+          <Text style={styles.samvatText} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>{t('ui.samvat')} - {samvatYear}</Text>
+          <Text style={styles.monthText} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>
             {tVal(monthName)} {tVal(tithi.paksha === 'shukla' ? 'Shukla' : 'Krishna')}
           </Text>
-          <Text style={styles.tithiText} numberOfLines={1}>
+          <Text style={styles.tithiText} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>
             {tVal(tithi.name)}
           </Text>
-          <Text style={styles.nakshatraText} numberOfLines={1}>
+          <Text style={styles.nakshatraText} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>
             ⭐ {tVal(nakshatra.name)}
           </Text>
         </View>
@@ -78,16 +78,16 @@ export function DualDayCards({ selectedData }: DualDayCardsProps) {
         <View style={styles.columnRight}>
           <View style={styles.sunRow}>
             <Text style={styles.sunIcon}>🌅</Text>
-            <View>
-              <Text style={styles.sunLabel}>{t('ui.sunrise')}</Text>
-              <Text style={styles.sunTime}>{formatTime12h(sunrise)}</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.sunLabel} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>{t('ui.sunrise')}</Text>
+              <Text style={styles.sunTime} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>{formatTime12h(sunrise)}</Text>
             </View>
           </View>
           <View style={styles.sunRow}>
             <Text style={styles.sunIcon}>🌇</Text>
-            <View>
-              <Text style={styles.sunLabel}>{t('ui.sunset')}</Text>
-              <Text style={styles.sunTime}>{formatTime12h(sunset)}</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.sunLabel} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>{t('ui.sunset')}</Text>
+              <Text style={styles.sunTime} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>{formatTime12h(sunset)}</Text>
             </View>
           </View>
         </View>
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     marginTop: Spacing.sm,
     marginBottom: Spacing.md,
     paddingVertical: Spacing.lg,
-    paddingHorizontal: Spacing.lg,
+    paddingHorizontal: 12, // Reduced from Spacing.lg to give columns more breathing room
     minHeight: 110,
   },
   row: {
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   columnLeft: {
-    flex: 2.8,
+    flex: 2.2, // Reduced to give right column more space
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -122,10 +122,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
   },
   columnRight: {
-    flex: 2.8,
+    flex: 3.4, // Increased to give the sun times proper padding and space
     alignItems: 'flex-start',
     justifyContent: 'center',
-    paddingLeft: 6,
+    paddingLeft: 8,
   },
   divider: {
     width: StyleSheet.hairlineWidth,

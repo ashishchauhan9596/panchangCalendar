@@ -7,6 +7,12 @@
     "scheme": "swarupa-panchang",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1B25"
+    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.swarupa.panchang",

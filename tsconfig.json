@@ -8,7 +8,9 @@
   "include": [
     "src/**/*",
     "__tests__/**/*",
-    "App.tsx"
+    "App.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
   ],
   "exclude": [
     "**/node_modules",

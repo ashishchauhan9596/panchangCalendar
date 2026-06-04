@@ -18,6 +18,7 @@ import {
   Pressable,
   ActivityIndicator,
   Modal,
+  Image,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -193,7 +194,7 @@ export function HomeScreen() {
     const maxDays = new Date(viewYear, viewMonth + 1, 0).getDate();
     const newDay = Math.min(targetDay, maxDays);
     const newDate = new Date(Date.UTC(viewYear, viewMonth, newDay, 6, 0, 0));
-    
+
     // Only update if the selectedDate is actually in a different month/year than viewMonth/viewYear
     if (selectedDate.getFullYear() !== viewYear || selectedDate.getMonth() !== viewMonth) {
       setSelectedDate(newDate);
@@ -236,7 +237,13 @@ export function HomeScreen() {
         {/* Sticky Header Section */}
         <View style={styles.header}>
           <View>
-            <Text style={styles.appTitle}>{t('ui.appTitle')}</Text>
+            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+              <Image
+                source={require('../../assets/logo.png')}
+                style={{ width: 44, height: 44, borderRadius: 22, marginRight: 10, borderWidth: 1.5, borderColor: 'rgba(212, 168, 67, 0.4)' }}
+              />
+              <Text style={styles.appTitle}>{t('ui.appTitle')}</Text>
+            </View>
             <Pressable style={styles.cityButton} onPress={() => setCityPickerVisible(true)}>
               <Text style={styles.cityName}>📍 {city.name}</Text>
             </Pressable>
@@ -397,9 +404,15 @@ const styles = StyleSheet.create({
   },
   appTitle: {
     color: Colors.text.primary,
-    fontSize: Typography.size['4xl'],
+    fontSize: Typography.size['2xl'],
     fontWeight: Typography.weight.extraBold,
     letterSpacing: -0.5,
+  },
+  logoImage: {
+    height: 48,
+    width: 200,
+    marginTop: 4,
+    marginBottom: 4,
   },
   cityButton: {
     marginTop: Spacing.xs,
